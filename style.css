@@ -87,7 +87,7 @@ fieldset.grupo .campo{
     top: 105%;
     left: 52%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .botao:hover{
@@ -97,5 +97,5 @@ fieldset.grupo .campo{
 }
 
 .botao, select{
-    cursor: pointer;;
+    cursor: pointer;
 }
