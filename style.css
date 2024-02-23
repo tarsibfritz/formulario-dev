@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: var(--font-dm-sans);
+    color: var(--dark-main-color);
+    margin-left: 9%;
+}
+
+#subtitulo{
+    font-family: var(--font-dm-sans);
+    color: var(--dark-main-color);
+    margin-left: 14%;
+}
+
+#check{
+    display: inline-block;
+    margin-right: 23em;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #f0f8ff;
+    font-family: var(--font-dm-sans);
+    font-size: 1em;
+    color: var(--main-color);
+    margin-left: 36%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    font-family: var(--font-dm-sans);
+    font-size: 1em;
+    color: var(--main-color);
+    border-radius: 5px;
+}
+
+/* Elementos da classe campo */
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: var(--main-color);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid var(--main-color);
+    box-shadow: var(--default-shadow);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #e0e0f8;
+}
+
+/* Elemento do botão */
+.botao{
+    font-size: 1.2em;
+    background: var(--main-color);
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFFFFFFF;
+    padding: 0.2em 0.6em;
+    box-shadow: var(--default-shadow);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 105%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: insert var(--default-shadow);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;;
+}

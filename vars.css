@@ -1,0 +1,11 @@
+:root{
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --dark-main-color: #380B61;
+    --main-color: #59429d;
+
+    /* BOX SHADOW */
+    --default-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
